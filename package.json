@@ -1,0 +1,31 @@
+{
+  "name": "browserify-remove-code",
+  "version": "0.0.1",
+  "description": "Remove sections of code from files based on conditions (browserify transform)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anmo/browserify-remove-code.git"
+  },
+  "keywords": [
+    "remove",
+    "remove",
+    "code",
+    "strip",
+    "code",
+    "browserify",
+    "transform"
+  ],
+  "author": "Anmo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anmo/browserify-remove-code/issues"
+  },
+  "homepage": "https://github.com/Anmo/browserify-remove-code#readme",
+  "dependencies": {
+    "through2": "^2.0.0"
+  }
+}
