@@ -81,11 +81,12 @@ module.exports = function(options) {
 					if (!regex) {
 						regex = regexCache[fileExt + key] = getRemovalTagsRegExp(commentStart, commentEnd, key);
 					}
-					this.push(contents.replace(regex, ''));
+
+					contents = contents.replace(regex, '');
 				}
-			} else {
-				this.push(contents);
 			}
+
+			this.push(contents);
 
 			next();
 		});
